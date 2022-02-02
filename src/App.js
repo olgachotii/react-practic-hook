@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Friends from './components/Friends/Friends';
 // import Appbar from './components/AppBar/AppBar';
 
 // import PokemonView from './components/Pokemon/PokemonView';
@@ -15,7 +16,7 @@ import React, { Component } from 'react';
 // import ColorPicker from './components/ColorPicker/ColorPicker';
 // import colorPickerOptions from './colorPickerOptions.json';
 
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 
 // import Dropdown from './components/Dropdown';
 
@@ -34,11 +35,18 @@ class App extends Component {
         {/* <PokemonView /> */}
 
         {/* <SignupForm /> */}
+
         {/* <ColorPicker options={colorPickerOptions} /> */}
+
         {/* <Counter2 /> */}
+
         {/* <Clock /> */}
-        <Counter initialValue={10} />
+
+        {/* <Counter initialValue={10} /> */}
+
         {/* <Form /> */}
+
+        {/* <Friends /> */}
       </>
     );
   }
